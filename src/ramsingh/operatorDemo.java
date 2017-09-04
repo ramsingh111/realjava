@@ -20,7 +20,23 @@ public class operatorDemo {
          int d = 27;
         int max = a>b?a:b;
          System.out.println();
+         int time = 13;
+         if(time<12){
+         System.out.println("GoodMorning");
+         }else if(time<17){
+         System.out.println("GoodAfternoon");
          
+         }else{
+             System.out.println("GoodEvening");
+         }
+         String name = "sris";
+         char gender = 'f';
+         if (gender=='m'){
+             System.out.println("Hello mr  " +  name);
+         }else{
+             System.out.println("Hello mrs  "+  name);
+         }
+         System.out.println(gender=='M'?"Hello mr "+name:"Hello miss  "+name);
      }
     
 }
