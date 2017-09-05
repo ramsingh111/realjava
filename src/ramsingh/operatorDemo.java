@@ -37,8 +37,12 @@ public class operatorDemo {
              System.out.println("Hello mrs  "+  name);
          }
          System.out.println(gender=='M'?"Hello mr "+name:"Hello miss "+name);
-         for (int i = 0 ;i<100  ;i+=2 ){
-             System.out.println(i);   
+         for (int j = 1 ;j<11  ;j++ ){
+             for (int i = 1 ; i<11;i++){
+             System.out.print(j+" * "+i+" = "+i*j+"\t");   
          }
-    
+             System.out.println("");
+     }
+
+}
 }
